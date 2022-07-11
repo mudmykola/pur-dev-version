@@ -1,0 +1,35 @@
+{
+    "name": "gulp-start",
+    "version": "1.0.0",
+    "description": "start gulp",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "MUD MYKOLA",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.27.7",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-filter": "^7.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.1.1",
+        "gulp-svg-sprite": "^1.5.0",
+        "gulp-svg-sprites": "^4.1.2",
+        "gulp-svg2png": "^2.0.2",
+        "gulp-uglify": "^3.0.2",
+        "normalize.css": "^8.0.1"
+    },
+    "dependencies": {
+        "sass": "^1.53.0",
+        "slick-carousel": "^1.8.1"
+    },
+    "browserslist": [
+        "defaults",
+        "not IE 11",
+        "maintained node versions"
+    ]
+}

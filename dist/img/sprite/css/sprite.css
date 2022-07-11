@@ -1,0 +1,110 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 17em 37.9em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.clock-icon:before {
+      background-position: 0em 0em;
+      width: 6.2em;
+      height: 5.6em;
+  }
+
+
+
+
+  .icon.footer-logo:before {
+      background-position: 0em -5.6em;
+      width: 17em;
+      height: 5.4em;
+  }
+
+
+
+
+  .icon.house-icon:before {
+      background-position: 0em -11em;
+      width: 5.3em;
+      height: 5.6em;
+  }
+
+
+
+
+  .icon.house-red-icon:before {
+      background-position: 0em -16.6em;
+      width: 2em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.logo-icone:before {
+      background-position: 0em -18.4em;
+      width: 17em;
+      height: 5.4em;
+  }
+
+
+
+
+  .icon.mail-red-icon:before {
+      background-position: 0em -23.8em;
+      width: 2em;
+      height: 1.6em;
+  }
+
+
+
+
+  .icon.money-icon:before {
+      background-position: 0em -25.4em;
+      width: 5.6em;
+      height: 5.2em;
+  }
+
+
+
+
+  .icon.nice:before {
+      background-position: 0em -30.6em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .icon.phone-icon:before {
+      background-position: 0em -34.6em;
+      width: 1.5em;
+      height: 1.5em;
+  }
+
+
+
+
+  .icon.phone-red-icon:before {
+      background-position: 0em -36.1em;
+      width: 1.8em;
+      height: 1.8em;
+  }
+
+
+
+
+
